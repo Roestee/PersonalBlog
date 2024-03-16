@@ -1,7 +1,7 @@
 ﻿using PersonalBlog.Core.Data.Concrete.EntityFramework;
 using Microsoft.EntityFrameworkCore;
-using PersonalBlog.DataAccess.Abstract;
 using PersonalBlog.Entities.Concrete.Complex;
+using PersonalBlog.DataAccess.Abstract.Repositories;
 
 namespace PersonalBlog.DataAccess.Concrete.EntityFramework.Repositories
 {
