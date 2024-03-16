@@ -9,7 +9,7 @@ namespace PersonalBlog.Entities.Concrete.Complex
         public string Content { get; set; }
         public string Thumbnail { get; set; }
         public int ViewCount { get; set; } = 0;
-        public string SeoText { get; set; }
+        public string SeoTags { get; set; }
         public string SeoDescription { get; set; }
         public int CategoryId { get; set; }
         public Categories Category { get; set; }
