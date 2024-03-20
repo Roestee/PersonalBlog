@@ -34,7 +34,7 @@ namespace PersonalBlog.DataAccess.Concrete.EntityFramework.Mappings
                 IsDelete = false,
                 Title = "Unity Game Developer",
                 ShortContent = "Unity Oyun Motoru Ile Oyun Geliştirilmesi",
-                Content = "Unity ile sıfırdan oyun prototipleri\r\nhazırlama,\r\nc# diliyle yeniden kullanılabilir, temiz, SOLID\r\nprensiplerine uygun kodlarının hazırlanması.\r\nLevel ve UI Tasarımlarının yapılması."
+                Content = "Unity ile sıfırdan oyun prototipleri hazırlama, c# diliyle yeniden kullanılabilir, temiz, SOLID prensiplerine uygun kodlarının hazırlanması. Level ve UI Tasarımlarının yapılması."
             });
         }
     }

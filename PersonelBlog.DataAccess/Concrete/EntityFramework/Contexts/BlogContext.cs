@@ -25,7 +25,7 @@ namespace PersonalBlog.DataAccess.Concrete.EntityFramework.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(connectionString: @".;Database=PersonalBlog;Trusted_Connection=true;");
+            optionsBuilder.UseSqlServer(connectionString: @"Server=.\SQLEXPRESS;Database=PersonalBlog;Trusted_Connection=true;TrustServerCertificate=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

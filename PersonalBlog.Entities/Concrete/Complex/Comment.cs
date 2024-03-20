@@ -7,7 +7,7 @@ namespace PersonalBlog.Entities.Concrete.Complex
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Text { get; set; }
-        public string ArticleId { get; set; }
+        public int ArticleId { get; set; }
         public Article Article { get; set; }
     }
 }
